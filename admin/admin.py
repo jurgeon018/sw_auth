@@ -14,7 +14,7 @@ from django.contrib.auth.admin import (UserAdmin, GroupAdmin,)
 from django.utils.html import mark_safe 
 from django.shortcuts import reverse, render, redirect
 
-from box.core.utils import move_to
+from sw_utils.utils import move_to
 from ..resources import BoxUserResource
 
 from import_export.admin import ImportExportActionModelAdmin, ImportExportModelAdmin

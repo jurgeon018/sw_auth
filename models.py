@@ -56,7 +56,7 @@ class BoxAbstractUser(models.Model):
         _('email address'), blank=True,
         unique=True, 
     )
-    # if 'box.apps.sw_shop.sw_customer' in settings.INSTALLED_APPS:
+    # if 'sw_shop.sw_customer' in settings.INSTALLED_APPS:
     #     group        = models.ForeignKey(
     #         to="sw_customer.CustomerGroup", 
     #         verbose_name=_("Група"), 
